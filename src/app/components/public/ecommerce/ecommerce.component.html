@@ -1,0 +1,408 @@
+<!-- Desktop -->
+<section class="pt-4 pt-md-11 d-none d-xl-block">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-5 col-lg-6 order-md-2 wow slideInRight">
+                <img src="./assets/campaign/pages/1920/mobile-shop.png" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0 offset-xl-3" alt="Web Store in the app">
+            </div>
+            <div class="col-12 col-md-7 col-lg-6 order-md-1 wow slideInLeft">
+                <h1 class="display-3 text-center text-md-left text-white Aquatico-Regular font-30">
+                    Empieza a vender en linea ahora!
+                </h1>
+                <p class="text-center text-md-left  mb-6 mb-lg-8 Aquatico-Regular text-white font-16">
+                    Construye alianzas poderosas alrededor del mundo
+                </p>
+                <div class="text-center text-md-left">
+                    <form ngNativeValidate (ngSubmit)="PrecreatedEmail(campaignForm);" #campaignForm="ngForm">
+                        <div class="form-row">
+                            <div class="col-sm">
+                                <input ngModel required name="email" type="email" class="form-control LinotteRegular" placeholder="Correo electrónico">
+                            </div>
+                            <div class="col-sm">
+                                <button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial" type="submit">
+                                  Empieza a vender ahora!
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="space-30"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col text-center">
+                            <p class="text-white LinotteLight font-14 font-weight-light">
+                                Póngase en contacto con nosotros, no solicitaremos ningún tipo de información confidencial. Al ingresar sus datos, acepta recibir correos electrónicos de marketing de syfte.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- divider -->
+                    <div class="space-15"></div>
+                    <section class="offset-xl-1" style="border-top: 2px solid white; width: 80%"></section>
+                </div>
+            </div>
+        </div>
+        <!-- Row 2 -->
+        <div style="margin-top: -15%" class="row">
+            <div class="col-sm">
+                <div class="row wow slideInUp">
+                    <div class="col-sm wow slideInLeft">
+                        <img style="width: 150%; margin-top: -40%" class="offset-xl-1" src="./assets/campaign/pages/1920/shop-bag.png" alt="Start an Online Store">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm text-center offset-xl-2 wow slideInUp">
+                <div class="space-100"></div>
+                <h1 style="font-size: 22px" class="text-white Aquatico-Regular">
+                    Grandes ideas vienen de grandes ambiciones
+                </h1>
+                <p class="text-white LinotteLight font-16 font-weight-light">
+                    No solo le ayudamos a crear su tienda virtual, sino que también prepararemos módulos profesionales para integrar alianzas con otras compañías en caso de que quiera convertirse en un dropshipper y pueda vender productos de terceros.
+                </p>
+            </div>
+        </div>
+        <!-- end row 2 -->
+        <!-- divider trial -->
+        <div class="space-15"></div>
+        <div class="row wow fadeIn">
+            <div class="col-sm text-center offset-xl-3">
+                <section class="w-75" style="border-top: 2px solid white;"></section>
+            </div>
+        </div>
+        <div class="space-50"></div>
+        <div class="row">
+            <div class="col-sm text-center offset-xl-5 wow slideInUp">
+                <button (click)="OpenTrial();" style="position: relative; left: -0.5em;" mat-raised-button color="primary" class="btn-block col-5 LinotteRegular btn-trial" type="button">
+                        Empieza a vender ahora!
+              </button>
+            </div>
+        </div>
+        <!-- end divider -->
+        <!-- services -->
+        <div class="space-50"></div>
+        <div class="row offset-1 wow slideInUp">
+            <div class="col-lg-4 col-sm-6">
+                <mat-card class="mat-transparent hover-shadow-lg hover-translate-y-n10">
+                    <div class="px-4 py-5 text-center">
+                        <i class="material-icons font-60 text-white">
+                          grade
+                      </i>
+                    </div>
+                    <div class="px-4 pb-5 text-center">
+                        <mat-card-title class="text-white LinotteRegular">
+                            Plantillas profesionales
+                        </mat-card-title>
+                        <mat-card-content class="text-white LinotteLight">
+                            Ofrecemos una variedad de plantillas Premium o podemos crear una totalmente nueva a partir de 0 en caso de que necesite una plantilla personalizada.
+                        </mat-card-content>
+                    </div>
+                </mat-card>
+            </div>
+            <div class="col-lg-4 col-sm-6 wow slideInUp">
+                <mat-card class="mat-transparent hover-shadow-lg hover-translate-y-n10">
+                    <div class="px-4 py-5 text-center">
+                        <i class="material-icons font-60 text-white">
+                            whatshot
+                      </i>
+                    </div>
+                    <div class="px-4 pb-5 text-center">
+                        <mat-card-title class="text-white LinotteRegular font-22">
+                            Integración con Instagram Empresas
+                        </mat-card-title>
+                        <mat-card-content class="text-white LinotteLight">
+                            Instagram tiene actualmente 1.000 millones de usuarios activos por mes. Imagina integrar tu tienda online con esta herramienta. No solo tendrá una audiencia en los motores de búsqueda sino también en las redes sociales, por lo que todo su tráfico fluirá
+                            dentro de su tienda y tendrá un mayor alcance global.
+                        </mat-card-content>
+                    </div>
+                </mat-card>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <mat-card class="mat-transparent hover-shadow-lg hover-translate-y-n10">
+                    <div class="px-4 py-5 text-center">
+                        <i class="material-icons font-60 text-white">
+                            directions_boat
+                      </i>
+                    </div>
+                    <div class="px-4 pb-5 text-center">
+                        <mat-card-title class="text-white LinotteRegular">
+                            Dropshipping
+                        </mat-card-title>
+                        <mat-card-content class="text-white LinotteLight">
+                            Tenemos herramientas inteligentes para crear asociaciones de manera automatizada, por lo que con solo un par de clics venderá productos de terceros en su tienda.
+                        </mat-card-content>
+                    </div>
+                </mat-card>
+            </div>
+        </div>
+        <!-- end services -->
+    </div>
+    <div class="space-50"></div>
+    <!--<div class="space-200"></div>-->
+    <!-- / .container -->
+</section>
+<!-- end desktop -->
+<!-- tablets -->
+<section class="pt-4 pt-md-11 d-none d-md-block d-xl-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm text-center">
+                <a href="https://www.syftedesigns.com" title="Brand logo">
+                    <img style="position: relative; left: 0.5em;" src="./assets/campaign/pages/768/logo-03.png" alt="Syfte designs brand logo">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm text-center wow slideInLeft">
+                <h1 class="display-3 text-center  text-white Aquatico-Regular font-45">
+                    Empieza a vender en linea ahora!
+                </h1>
+                <p class="text-center mb-6 mb-lg-8 Aquatico-Regular text-white font-16">
+                    Construye alianzas poderosas alrededor del mundo
+                </p>
+            </div>
+        </div>
+        <div class="row offset-md-3 offset-lg-4 form-mg wow slideInUp">
+            <form style="position: relative; left: -1em;" ngNativeValidate (ngSubmit)="PrecreatedEmail(campaignFormTablet);" #campaignFormTablet="ngForm">
+                <div class="form-row">
+                    <div class="col-sm text-center">
+                        <input ngModel required name="email" type="email" class="form-control LinotteRegular" placeholder=" Correo electrónico">
+                    </div>
+                    <div class="col-sm">
+                        <button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial" type="submit">
+                                Empieza a vender ahora!
+                      </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="space-30"></div>
+        <div class="row">
+            <div class="col text-center ">
+                <p class="text-white LinotteLight font-14 font-weight-light wow slideInLeft">
+                    Póngase en contacto con nosotros, no solicitaremos ningún tipo de información confidencial. Al ingresar sus datos, acepta recibir correos electrónicos de marketing de syfte.
+                </p>
+            </div>
+        </div>
+        <!-- divider -->
+        <div class="space-15"></div>
+        <section class="offset-md-1 offset-lg-2 border-mg" style="border-top: 2px solid white; width: 80%;"></section>
+        <div class="space-80"></div>
+        <div class="row">
+            <div class="col-12 col-md-7 col-lg-6 wow slideInLeft">
+                <h1 style="font-size: 22px" class="display-3 text-center text-md-left text-white Aquatico-Regular font-24">
+                    Grandes ideas vienen de grandes ambiciones
+                </h1>
+                <p style="font-weight: lighter" class="text-center text-md-left  mb-6 mb-lg-8 LinotteRegular text-white font-16">
+                    No solo le ayudamos a crear su tienda virtual, sino que también prepararemos módulos profesionales para integrar alianzas con otras compañías en caso de que quiera convertirse en un dropshipper y pueda vender productos de terceros.
+                </p>
+            </div>
+            <div class="col-md wow slideInRight">
+                <img class="img-thumbnail phone-tablet" src="./assets/campaign/pages/768/shop-phone.png" alt="Create an Online Store with app integration">
+            </div>
+        </div>
+        <div class="col-md order-md-1 wow slideInUp">
+            <img class="img-thumbnail bag-tablet" src="./assets/campaign/pages/768/shop-bag.png" alt="Create an Online Store">
+        </div>
+        <div class="space-30"></div>
+        <section class="offset-md-1 offset-lg-2 border-mg" style="border-top: 2px solid white; width: 80%;"></section>
+        <div class="space-30"></div>
+        <div class="col-md-7 col-lg-9 text-center offset-md-4 offset-lg-3 row-btn-mg wow slideInUp">
+            <button (click)="OpenTrial();" mat-raised-button color="primary" class="btn-block col-5 LinotteRegular btn-trial btn-trial-mg" type="button">
+                    Empezar ahora!
+          </button>
+        </div>
+        <!-- services -->
+        <div class="space-70"></div>
+        <div class="row wow bounceInUp">
+            <div class="col-md-4 col-lg-4">
+                <mat-card class="mat-transparent hover-shadow-lg hover-translate-y-n10">
+                    <div class="px-4 py-5 text-center">
+                        <i class="material-icons font-60 text-white">
+                          grade
+                      </i>
+                    </div>
+                    <div class="px-4 pb-5 text-center">
+                        <mat-card-title class="text-white LinotteRegular">
+                            Plantillas profesionales
+                        </mat-card-title>
+                        <mat-card-content class="text-white LinotteLight">
+                            Ofrecemos una variedad de plantillas Premium o podemos crear una totalmente nueva a partir de 0 en caso de que necesite una plantilla personalizada.
+                        </mat-card-content>
+                    </div>
+                </mat-card>
+            </div>
+            <div class="col-md-4 col-lg-4">
+                <mat-card class="mat-transparent hover-shadow-lg hover-translate-y-n10">
+                    <div class="px-4 py-5 text-center">
+                        <i class="material-icons font-60 text-white">
+                            whatshot
+                      </i>
+                    </div>
+                    <div class="px-4 pb-5 text-center">
+                        <mat-card-title class="text-white LinotteRegular">
+                            Integración con Instagram Empresas
+                        </mat-card-title>
+                        <mat-card-content class="text-white LinotteLight">
+                            Instagram tiene actualmente 1.000 millones de usuarios activos por mes. Imagina integrar tu tienda online con esta herramienta. No solo tendrá una audiencia en los motores de búsqueda sino también en las redes sociales, por lo que todo su tráfico fluirá
+                            dentro de su tienda y tendrá un mayor alcance global.
+                        </mat-card-content>
+                    </div>
+                </mat-card>
+            </div>
+            <div class="col-md-4 col-lg-4">
+                <mat-card class="mat-transparent hover-shadow-lg hover-translate-y-n10">
+                    <div class="px-4 py-5 text-center">
+                        <i class="material-icons font-60 text-white">
+                            directions_boat
+                      </i>
+                    </div>
+                    <div class="px-4 pb-5 text-center">
+                        <mat-card-title class="text-white LinotteRegular">
+                            Dropshipping
+                        </mat-card-title>
+                        <mat-card-content class="text-white LinotteLight">
+                            Tenemos herramientas inteligentes para crear asociaciones de manera automatizada, por lo que con solo un par de clics venderá productos de terceros en su tienda.
+                        </mat-card-content>
+                    </div>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+    <div class="space-40 d-md-none d-lg-block"></div>
+    <div class="space-100 d-lg-none"></div>
+</section>
+<!-- end tablets -->
+<!-- mobile -->
+<section class="pt-4 pt-md-11 d-md-none">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <a href="https://www.syftedesigns.com/" title="Go to home">
+                    <img src="./assets/campaign/pages/480/logo-03.png" alt="Syfte designs brand logo">
+                </a>
+            </div>
+        </div>
+        <div class="row wow slideInLeft">
+            <div class="col text-center">
+                <h1 class="display-3 text-center  text-white Aquatico-Regular font-30">
+                    Empieza a vender en linea ahora!
+                </h1>
+                <p class="text-center mb-6 mb-lg-8 LinotteLight text-white font-20">
+                    Construye alianzas poderosas alrededor del mundo.
+                </p>
+            </div>
+        </div>
+        <!-- form mobile -->
+        <div class="row wow slideInUp">
+            <form ngNativeValidate (ngSubmit)="PrecreatedEmail(campaignFormResponsive);" #campaignFormResponsive="ngForm" class="form-px-mg offset-1 mobile-mg-sm mobile-mg-xl">
+                <div class="col-sm text-center">
+                    <mat-form-field class="col-12 form-w" appearance="outline">
+                        <mat-label class="LinotteRegular text-white font-20 text-center"> Correo electrónico</mat-label>
+                        <input required name="email" ngModel type="email" class="text-white LinotteRegular" matInput>
+                    </mat-form-field>
+                </div>
+                <div class="col-sm text-center">
+                    <button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial btn-trial-mg" type="submit">
+                            Empieza a vender ahora!
+                  </button>
+                </div>
+            </form>
+        </div>
+        <!-- end form mobile -->
+        <div class="space-80"></div>
+        <div class="row wow slideInLeft">
+            <div class="col-12">
+                <p class="text-white LinotteRegular font-14 text-center">
+                    Póngase en contacto con nosotros, no solicitaremos ningún tipo de información confidencial. Al ingresar sus datos, acepta recibir correos electrónicos de marketing de syfte.
+                </p>
+            </div>
+        </div>
+        <div class="space-30"></div>
+        <div class="row wow slideInLeft">
+            <div class="col text-center">
+                <img style="margin-left: -4.5em" class="img-fluid" src="./assets/campaign/pages/480/shop-mobile-phone.png" alt="Create an Online Store">
+            </div>
+        </div>
+        <div class="space-20"></div>
+        <div class="row wow slideInUp">
+            <div class="col text-center">
+                <h1 style="font-size: 22px" class="display-3 text-center  text-white Aquatico-Regular font-32">
+                    Grandes ideas vienen de grandes ambiciones
+                </h1>
+                <p style="font-weight: lighter" class="text-center   mb-6 mb-lg-8 LinotteRegular text-white font-16">
+                    No solo le ayudamos a crear su tienda virtual, sino que también prepararemos módulos profesionales para integrar alianzas con otras compañías en caso de que quiera convertirse en un dropshipper y pueda vender productos de terceros.
+                </p>
+            </div>
+        </div>
+        <div class="space-15"></div>
+        <div class="row wow slideInLeft">
+            <div class="col text-center">
+                <section class="offset-1" style="border-top: 2px solid white; width: 80%; position: relative; left: 0.3em;"></section>
+            </div>
+            <div class="space-20"></div>
+            <div style="position: relative; left: 0.7em;" class="col-sm text-center offset-1">
+                <button (click)="OpenTrial();" mat-raised-button color="primary" class="btn-block col-10 LinotteRegular btn-trial btn-trial-mg" type="button">
+                        Empieza a vender ahora!
+              </button>
+            </div>
+        </div>
+        <!-- services -->
+        <div class="space-50"></div>
+        <div class="col wow slideInLeft">
+            <mat-card class="mat-transparent hover-shadow-lg hover-translate-y-n10">
+                <div class="px-4 py-5 text-center">
+                    <i class="material-icons font-60 text-white">
+                        grade
+                    </i>
+                </div>
+                <div class="px-4 pb-5 text-center">
+                    <mat-card-title class="text-white LinotteRegular">
+                        Plantillas profesionales
+                    </mat-card-title>
+                    <mat-card-content class="text-white LinotteLight">
+                        Ofrecemos una variedad de plantillas Premium o podemos crear una totalmente nueva a partir de 0 en caso de que necesite una plantilla personalizada.
+                    </mat-card-content>
+                </div>
+            </mat-card>
+        </div>
+        <div class="space-30"></div>
+        <div class="col wow slideInLeft">
+            <mat-card class="mat-transparent hover-shadow-lg hover-translate-y-n10">
+                <div class="px-4 py-5 text-center">
+                    <i class="material-icons font-60 text-white">
+                            whatshot    
+                  </i>
+                </div>
+                <div class="px-4 pb-5 text-center">
+                    <mat-card-title class="text-white LinotteRegular">
+                        Integración con Instagram Empresas
+                    </mat-card-title>
+                    <mat-card-content class="text-white LinotteLight">
+                        Instagram tiene actualmente 1.000 millones de usuarios activos por mes. Imagina integrar tu tienda online con esta herramienta. No solo tendrá una audiencia en los motores de búsqueda sino también en las redes sociales, por lo que todo su tráfico fluirá
+                        dentro de su tienda y tendrá un mayor alcance global.
+                    </mat-card-content>
+                </div>
+            </mat-card>
+        </div>
+        <div class="space-30"></div>
+        <div class="col wow slideInLeft">
+            <mat-card class="mat-transparent hover-shadow-lg hover-translate-y-n10">
+                <div class="px-4 py-5 text-center">
+                    <i class="material-icons font-60 text-white">
+                        directions_boat
+                  </i>
+                </div>
+                <div class="px-4 pb-5 text-center">
+                    <mat-card-title class="text-white LinotteRegular">
+                        Dropshipping
+                    </mat-card-title>
+                    <mat-card-content class="text-white LinotteLight">
+                        Tenemos herramientas inteligentes para crear asociaciones de manera automatizada, por lo que con solo un par de clics venderá productos de terceros en su tienda.
+                    </mat-card-content>
+                </div>
+            </mat-card>
+        </div>
+        <!-- end services -->
+    </div>
+    <div class="space-100"></div>
+</section>
+<!-- end mobile -->
