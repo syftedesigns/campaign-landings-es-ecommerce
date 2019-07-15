@@ -3,14 +3,14 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 col-md-5 col-lg-6 order-md-2 wow slideInRight">
-                <img src="./assets/campaign/pages/1920/mobile-shop.png" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0 offset-xl-3" alt="Web Store in the app">
+                <img title="Vende Online" description="Vende tus productos en linea" src="./assets/campaign/pages/1920/mobile-shop.png" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0 offset-xl-3" alt="Creación de tiendas en linea">
             </div>
             <div class="col-12 col-md-7 col-lg-6 order-md-1 wow slideInLeft">
-                <h1 class="display-3 text-center text-md-left text-white Aquatico-Regular font-30">
-                    Empieza a vender en linea ahora!
+                <h1 class="display-3 text-center text-md-left text-white LinotteRegular font-30">
+                    Impulsamos tus objetivos de venta con estrategias de Merchandising
                 </h1>
-                <p class="text-center text-md-left  mb-6 mb-lg-8 Aquatico-Regular text-white font-16">
-                    Construye alianzas poderosas alrededor del mundo
+                <p class="text-center text-md-left  mb-6 mb-lg-8 LinotteRegular text-white font-16">
+                    Quieres vender en línea, ¿No consigues las ventas que deseas? Descubre las soluciones que ofrecemos para tu negocio.
                 </p>
                 <div class="text-center text-md-left">
                     <form ngNativeValidate (ngSubmit)="PrecreatedEmail(campaignForm);" #campaignForm="ngForm">
@@ -19,9 +19,14 @@
                                 <input ngModel required name="email" type="email" class="form-control LinotteRegular" placeholder="Correo electrónico">
                             </div>
                             <div class="col-sm">
-                                <button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial" type="submit">
+                                <!--<button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial" type="submit">
                                   Empieza a vender ahora!
+                                </button>-->
+                                <!-- Principio del widget de enlace de Calendly -->
+                                <button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial" type="button" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/syftedesigns-services/ecommerce'}); fbq('track', 'Schedule'); return false;">
+                                    Solicitar presupuesto
                                 </button>
+                                <!-- Final del widget de enlace de Calendly -->
                             </div>
                         </div>
                     </form>
@@ -31,7 +36,7 @@
                     <div class="row">
                         <div class="col text-center">
                             <p class="text-white LinotteLight font-14 font-weight-light">
-                                Póngase en contacto con nosotros, no solicitaremos ningún tipo de información confidencial. Al ingresar sus datos, acepta recibir correos electrónicos de marketing de syfte.
+                                Reserva el dia y la hora que deseas que nuestro agente especializado se ponga en contacto con usted para discutir los detalles de su problema.
                             </p>
                         </div>
                     </div>
@@ -46,17 +51,17 @@
             <div class="col-sm">
                 <div class="row wow slideInUp">
                     <div class="col-sm wow slideInLeft">
-                        <img style="width: 150%; margin-top: -40%" class="offset-xl-1" src="./assets/campaign/pages/1920/shop-bag.png" alt="Start an Online Store">
+                        <img description="Vende tus productos en medios digitales" title="Soluciones Ecommerce" style="width: 150%; margin-top: -40%" class="offset-xl-1" src="./assets/campaign/pages/1920/shop-bag.png" alt="Start an Online Store">
                     </div>
                 </div>
             </div>
             <div class="col-sm text-center offset-xl-2 wow slideInUp">
                 <div class="space-100"></div>
-                <h1 style="font-size: 22px" class="text-white Aquatico-Regular">
-                    Grandes ideas vienen de grandes ambiciones
+                <h1 style="font-size: 36px" class="text-white LinotteRegular">
+                    Creamos Tácticas de Funnel exitosas
                 </h1>
                 <p class="text-white LinotteLight font-16 font-weight-light">
-                    No solo le ayudamos a crear su tienda virtual, sino que también prepararemos módulos profesionales para integrar alianzas con otras compañías en caso de que quiera convertirse en un dropshipper y pueda vender productos de terceros.
+                    Estudiamos su modelo de negocio y lo proyectamos en el mercado, para hacer estrategias de Funnel y Captar, fidelizar nuevos clientes.
                 </p>
             </div>
         </div>
@@ -71,13 +76,26 @@
         <div class="space-50"></div>
         <div class="row">
             <div class="col-sm text-center offset-xl-5 wow slideInUp">
-                <button (click)="OpenTrial();" style="position: relative; left: -0.5em;" mat-raised-button color="primary" class="btn-block col-5 LinotteRegular btn-trial" type="button">
+                <!--<button (click)="OpenTrial();" style="position: relative; left: -0.5em;" mat-raised-button color="primary" class="btn-block col-5 LinotteRegular btn-trial" type="button">
                         Empieza a vender ahora!
-              </button>
+              </button>-->
+                <button mat-raised-button style="position: relative; left: -0.5em;" color="primary" class="btn-block col-5 LinotteRegular btn-trial" type="button" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/syftedesigns-services/ecommerce'}); fbq('track', 'Schedule'); return false;">
+                Solicitar presupuesto
+            </button>
             </div>
         </div>
         <!-- end divider -->
         <!-- services -->
+        <div class="space-80"></div>
+        <section>
+            <div class="row">
+                <div class="col-sm text-center">
+                    <h1 class="text-white LinotteRegular">
+                        ¿Cómo lo hacemos?
+                    </h1>
+                </div>
+            </div>
+        </section>
         <div class="space-50"></div>
         <div class="row offset-1 wow slideInUp">
             <div class="col-lg-4 col-sm-6">
@@ -89,10 +107,11 @@
                     </div>
                     <div class="px-4 pb-5 text-center">
                         <mat-card-title class="text-white LinotteRegular">
-                            Plantillas profesionales
+                            Plan de marketing estrella
                         </mat-card-title>
                         <mat-card-content class="text-white LinotteLight">
-                            Ofrecemos una variedad de plantillas Premium o podemos crear una totalmente nueva a partir de 0 en caso de que necesite una plantilla personalizada.
+                            <!--Ofrecemos una variedad de plantillas Premium o podemos crear una totalmente nueva a partir de 0 en caso de que necesite una plantilla personalizada.-->
+                            Elaboramos un plan de marketing con Objetivos, tácticas y plan de acción que nos permitirá evaluar las condiciones de su negocio y como proyectarlo en los medios digitales.
                         </mat-card-content>
                     </div>
                 </mat-card>
@@ -106,11 +125,10 @@
                     </div>
                     <div class="px-4 pb-5 text-center">
                         <mat-card-title class="text-white LinotteRegular font-22">
-                            Integración con Instagram Empresas
+                            Promoción y Captación
                         </mat-card-title>
                         <mat-card-content class="text-white LinotteLight">
-                            Instagram tiene actualmente 1.000 millones de usuarios activos por mes. Imagina integrar tu tienda online con esta herramienta. No solo tendrá una audiencia en los motores de búsqueda sino también en las redes sociales, por lo que todo su tráfico fluirá
-                            dentro de su tienda y tendrá un mayor alcance global.
+                            Aplicamos estrategias de Neuromarketing, Merchandising, Funnel, entre otros y creamos un plan de promoción con un diseño a la medida para captar clientes potenciales.
                         </mat-card-content>
                     </div>
                 </mat-card>
@@ -119,15 +137,15 @@
                 <mat-card class="mat-transparent hover-shadow-lg hover-translate-y-n10">
                     <div class="px-4 py-5 text-center">
                         <i class="material-icons font-60 text-white">
-                            directions_boat
+                            thumb_up_alt
                       </i>
                     </div>
                     <div class="px-4 pb-5 text-center">
                         <mat-card-title class="text-white LinotteRegular">
-                            Dropshipping
+                            Fidelización y Retargeting
                         </mat-card-title>
                         <mat-card-content class="text-white LinotteLight">
-                            Tenemos herramientas inteligentes para crear asociaciones de manera automatizada, por lo que con solo un par de clics venderá productos de terceros en su tienda.
+                            Aplicamos estrategias para marcar tendencia y fidelizar los clientes para que puedan viralizar tus servicios digitales.
                         </mat-card-content>
                     </div>
                 </mat-card>
@@ -146,7 +164,7 @@
         <div class="row">
             <div class="col-sm text-center">
                 <a href="https://www.syftedesigns.com" title="Brand logo">
-                    <img style="position: relative; left: 0.5em;" src="./assets/campaign/pages/768/logo-03.png" alt="Syfte designs brand logo">
+                    <img title="Logo de Syfte" description="Logo de Syfte Designs" style="position: relative; left: 0.5em;" src="./assets/campaign/pages/768/logo-03.png" alt="Syfte designs brand logo">
                 </a>
             </div>
         </div>
@@ -155,8 +173,8 @@
                 <h1 class="display-3 text-center  text-white Aquatico-Regular font-45">
                     Empieza a vender en linea ahora!
                 </h1>
-                <p class="text-center mb-6 mb-lg-8 Aquatico-Regular text-white font-16">
-                    Construye alianzas poderosas alrededor del mundo
+                <p class="text-center mb-6 mb-lg-8 LinotteRegular text-white font-16">
+                    ¿No consigues las ventas que deseas?, Nosotros te asesoramos durante 90 dias para monitorear tu crecimiento!
                 </p>
             </div>
         </div>
@@ -167,9 +185,12 @@
                         <input ngModel required name="email" type="email" class="form-control LinotteRegular" placeholder=" Correo electrónico">
                     </div>
                     <div class="col-sm">
-                        <button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial" type="submit">
+                        <!--<button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial" type="submit">
                                 Empieza a vender ahora!
-                      </button>
+                      </button>-->
+                        <button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial" type="button" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/syftedesigns-services/ecommerce'}); fbq('track', 'Schedule'); return false;">
+                        Solicitar presupuesto
+                    </button>
                     </div>
                 </div>
             </form>
@@ -178,7 +199,7 @@
         <div class="row">
             <div class="col text-center ">
                 <p class="text-white LinotteLight font-14 font-weight-light wow slideInLeft">
-                    Póngase en contacto con nosotros, no solicitaremos ningún tipo de información confidencial. Al ingresar sus datos, acepta recibir correos electrónicos de marketing de syfte.
+                    Reserva el dia y la hora que deseas que nuestro agente especializado se ponga en contacto con usted para discutir los detalles de su problema.
                 </p>
             </div>
         </div>
@@ -188,11 +209,11 @@
         <div class="space-80"></div>
         <div class="row">
             <div class="col-12 col-md-7 col-lg-6 wow slideInLeft">
-                <h1 style="font-size: 22px" class="display-3 text-center text-md-left text-white Aquatico-Regular font-24">
-                    Grandes ideas vienen de grandes ambiciones
+                <h1 style="font-size: 22px" class="display-3 text-center text-md-left text-white LinotteRegular font-24">
+                    Creamos Tácticas de Funnel exitosas
                 </h1>
                 <p style="font-weight: lighter" class="text-center text-md-left  mb-6 mb-lg-8 LinotteRegular text-white font-16">
-                    No solo le ayudamos a crear su tienda virtual, sino que también prepararemos módulos profesionales para integrar alianzas con otras compañías en caso de que quiera convertirse en un dropshipper y pueda vender productos de terceros.
+                    Estudiamos su modelo de negocio y lo proyectamos en el mercado, para hacer estrategias de Funnel y Captar, fidelizar nuevos clientes.
                 </p>
             </div>
             <div class="col-md wow slideInRight">
@@ -200,17 +221,30 @@
             </div>
         </div>
         <div class="col-md order-md-1 wow slideInUp">
-            <img class="img-thumbnail bag-tablet" src="./assets/campaign/pages/768/shop-bag.png" alt="Create an Online Store">
+            <img description="Vende tus productos en medios digitales" title="Soluciones Ecommerce" class="img-thumbnail bag-tablet" src="./assets/campaign/pages/768/shop-bag.png" alt="Create an Online Store">
         </div>
         <div class="space-30"></div>
         <section class="offset-md-1 offset-lg-2 border-mg" style="border-top: 2px solid white; width: 80%;"></section>
         <div class="space-30"></div>
         <div class="col-md-7 col-lg-9 text-center offset-md-4 offset-lg-3 row-btn-mg wow slideInUp">
-            <button (click)="OpenTrial();" mat-raised-button color="primary" class="btn-block col-5 LinotteRegular btn-trial btn-trial-mg" type="button">
+            <!--<button (click)="OpenTrial();" mat-raised-button color="primary" class="btn-block col-5 LinotteRegular btn-trial btn-trial-mg" type="button">
                     Empezar ahora!
-          </button>
+          </button>-->
+            <button mat-raised-button color="primary" class="btn-block col-6 LinotteRegular btn-trial btn-trial-mg" type="button" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/syftedesigns-services/ecommerce'}); fbq('track', 'Schedule'); return false;">
+            Solicitar presupuesto
+        </button>
         </div>
         <!-- services -->
+        <div class="space-80"></div>
+        <section>
+            <div class="row">
+                <div class="col-sm text-center">
+                    <h1 class="text-white LinotteRegular">
+                        ¿Cómo lo hacemos?
+                    </h1>
+                </div>
+            </div>
+        </section>
         <div class="space-70"></div>
         <div class="row wow bounceInUp">
             <div class="col-md-4 col-lg-4">
@@ -222,10 +256,10 @@
                     </div>
                     <div class="px-4 pb-5 text-center">
                         <mat-card-title class="text-white LinotteRegular">
-                            Plantillas profesionales
+                            Plan de marketing estrella
                         </mat-card-title>
                         <mat-card-content class="text-white LinotteLight">
-                            Ofrecemos una variedad de plantillas Premium o podemos crear una totalmente nueva a partir de 0 en caso de que necesite una plantilla personalizada.
+                            Elaboramos un plan de marketing con Objetivos, tácticas y plan de acción que nos permitirá evaluar las condiciones de su negocio y como proyectarlo en los medios digitales.
                         </mat-card-content>
                     </div>
                 </mat-card>
@@ -239,11 +273,10 @@
                     </div>
                     <div class="px-4 pb-5 text-center">
                         <mat-card-title class="text-white LinotteRegular">
-                            Integración con Instagram Empresas
+                            Promoción y Captación
                         </mat-card-title>
                         <mat-card-content class="text-white LinotteLight">
-                            Instagram tiene actualmente 1.000 millones de usuarios activos por mes. Imagina integrar tu tienda online con esta herramienta. No solo tendrá una audiencia en los motores de búsqueda sino también en las redes sociales, por lo que todo su tráfico fluirá
-                            dentro de su tienda y tendrá un mayor alcance global.
+                            Aplicamos estrategias de Neuromarketing, Merchandising, Funnel, entre otros y creamos un plan de promoción con un diseño a la medida para captar clientes potenciales.
                         </mat-card-content>
                     </div>
                 </mat-card>
@@ -252,15 +285,15 @@
                 <mat-card class="mat-transparent hover-shadow-lg hover-translate-y-n10">
                     <div class="px-4 py-5 text-center">
                         <i class="material-icons font-60 text-white">
-                            directions_boat
+                            thumb_up_alt
                       </i>
                     </div>
                     <div class="px-4 pb-5 text-center">
                         <mat-card-title class="text-white LinotteRegular">
-                            Dropshipping
+                            Fidelización y Retargeting
                         </mat-card-title>
                         <mat-card-content class="text-white LinotteLight">
-                            Tenemos herramientas inteligentes para crear asociaciones de manera automatizada, por lo que con solo un par de clics venderá productos de terceros en su tienda.
+                            Aplicamos estrategias para marcar tendencia y fidelizar los clientes para que puedan viralizar tus servicios digitales.
                         </mat-card-content>
                     </div>
                 </mat-card>
@@ -277,7 +310,7 @@
         <div class="row">
             <div class="col text-center">
                 <a href="https://www.syftedesigns.com/" title="Go to home">
-                    <img src="./assets/campaign/pages/480/logo-03.png" alt="Syfte designs brand logo">
+                    <img title="Logo de Syfte" description="Logo de Syfte Designs" src="./assets/campaign/pages/480/logo-03.png" alt="Syfte designs brand logo">
                 </a>
             </div>
         </div>
@@ -286,8 +319,8 @@
                 <h1 class="display-3 text-center  text-white Aquatico-Regular font-30">
                     Empieza a vender en linea ahora!
                 </h1>
-                <p class="text-center mb-6 mb-lg-8 LinotteLight text-white font-20">
-                    Construye alianzas poderosas alrededor del mundo.
+                <p class="text-center mb-6 mb-lg-8 LinotteRegular text-white font-20">
+                    ¿No consigues las ventas que deseas?, Nosotros te asesoramos durante 90 dias para monitorear tu crecimiento!
                 </p>
             </div>
         </div>
@@ -301,9 +334,12 @@
                     </mat-form-field>
                 </div>
                 <div class="col-sm text-center">
-                    <button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial btn-trial-mg" type="submit">
+                    <!--<button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial btn-trial-mg" type="submit">
                             Empieza a vender ahora!
-                  </button>
+                  </button>-->
+                    <button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial btn-trial-mg" type="button" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/syftedesigns-services/ecommerce'}); fbq('track', 'Schedule'); return false;">
+                    Solicitar presupuesto
+                </button>
                 </div>
             </form>
         </div>
@@ -312,24 +348,25 @@
         <div class="row wow slideInLeft">
             <div class="col-12">
                 <p class="text-white LinotteRegular font-14 text-center">
-                    Póngase en contacto con nosotros, no solicitaremos ningún tipo de información confidencial. Al ingresar sus datos, acepta recibir correos electrónicos de marketing de syfte.
+                    Reserva el dia y la hora que deseas que nuestro agente especializado se ponga en contacto con usted para discutir los detalles de su problema.
                 </p>
             </div>
         </div>
         <div class="space-30"></div>
         <div class="row wow slideInLeft">
             <div class="col text-center">
-                <img style="margin-left: -4.5em" class="img-fluid" src="./assets/campaign/pages/480/shop-mobile-phone.png" alt="Create an Online Store">
+                <img title="Vende online" description="Vende en linea desde tu dispositivo móvil" style="margin-left: -4.5em" class="img-fluid" src="./assets/campaign/pages/480/shop-mobile-phone.png" alt="Create an Online Store">
             </div>
         </div>
         <div class="space-20"></div>
         <div class="row wow slideInUp">
             <div class="col text-center">
                 <h1 style="font-size: 22px" class="display-3 text-center  text-white Aquatico-Regular font-32">
-                    Grandes ideas vienen de grandes ambiciones
+                    Creamos Tácticas de Funnel exitosas
                 </h1>
                 <p style="font-weight: lighter" class="text-center   mb-6 mb-lg-8 LinotteRegular text-white font-16">
-                    No solo le ayudamos a crear su tienda virtual, sino que también prepararemos módulos profesionales para integrar alianzas con otras compañías en caso de que quiera convertirse en un dropshipper y pueda vender productos de terceros.
+                    <!--No solo le ayudamos a crear su tienda virtual, sino que también prepararemos módulos profesionales para integrar alianzas con otras compañías en caso de que quiera convertirse en un dropshipper y pueda vender productos de terceros.-->
+                    Estudiamos su modelo de negocio y lo proyectamos en el mercado, para hacer estrategias de Funnel y Captar, fidelizar nuevos clientes.
                 </p>
             </div>
         </div>
@@ -340,12 +377,25 @@
             </div>
             <div class="space-20"></div>
             <div style="position: relative; left: 0.7em;" class="col-sm text-center offset-1">
-                <button (click)="OpenTrial();" mat-raised-button color="primary" class="btn-block col-10 LinotteRegular btn-trial btn-trial-mg" type="button">
+                <!--<button (click)="OpenTrial();" mat-raised-button color="primary" class="btn-block col-10 LinotteRegular btn-trial btn-trial-mg" type="button">
                         Empieza a vender ahora!
-              </button>
+              </button>-->
+                <button mat-raised-button color="primary" class="btn-block col-10 LinotteRegular btn-trial btn-trial-mg" type="button" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/syftedesigns-services/ecommerce'}); fbq('track', 'Schedule'); return false;">
+                Solicitar presupuesto
+            </button>
             </div>
         </div>
         <!-- services -->
+        <div class="space-80"></div>
+        <section>
+            <div class="row">
+                <div class="col-sm text-center">
+                    <h1 class="text-white LinotteRegular">
+                        ¿Cómo lo hacemos?
+                    </h1>
+                </div>
+            </div>
+        </section>
         <div class="space-50"></div>
         <div class="col wow slideInLeft">
             <mat-card class="mat-transparent hover-shadow-lg hover-translate-y-n10">
@@ -356,10 +406,10 @@
                 </div>
                 <div class="px-4 pb-5 text-center">
                     <mat-card-title class="text-white LinotteRegular">
-                        Plantillas profesionales
+                        Plan de marketing estrella
                     </mat-card-title>
                     <mat-card-content class="text-white LinotteLight">
-                        Ofrecemos una variedad de plantillas Premium o podemos crear una totalmente nueva a partir de 0 en caso de que necesite una plantilla personalizada.
+                        Elaboramos un plan de marketing con Objetivos, tácticas y plan de acción que nos permitirá evaluar las condiciones de su negocio y como proyectarlo en los medios digitales.
                     </mat-card-content>
                 </div>
             </mat-card>
@@ -374,11 +424,10 @@
                 </div>
                 <div class="px-4 pb-5 text-center">
                     <mat-card-title class="text-white LinotteRegular">
-                        Integración con Instagram Empresas
+                        Promoción y Captación
                     </mat-card-title>
                     <mat-card-content class="text-white LinotteLight">
-                        Instagram tiene actualmente 1.000 millones de usuarios activos por mes. Imagina integrar tu tienda online con esta herramienta. No solo tendrá una audiencia en los motores de búsqueda sino también en las redes sociales, por lo que todo su tráfico fluirá
-                        dentro de su tienda y tendrá un mayor alcance global.
+                        Aplicamos estrategias de Neuromarketing, Merchandising, Funnel, entre otros y creamos un plan de promoción con un diseño a la medida para captar clientes potenciales.
                     </mat-card-content>
                 </div>
             </mat-card>
@@ -388,15 +437,15 @@
             <mat-card class="mat-transparent hover-shadow-lg hover-translate-y-n10">
                 <div class="px-4 py-5 text-center">
                     <i class="material-icons font-60 text-white">
-                        directions_boat
+                        thumb_up_alt
                   </i>
                 </div>
                 <div class="px-4 pb-5 text-center">
                     <mat-card-title class="text-white LinotteRegular">
-                        Dropshipping
+                        Fidelización y Retargeting
                     </mat-card-title>
                     <mat-card-content class="text-white LinotteLight">
-                        Tenemos herramientas inteligentes para crear asociaciones de manera automatizada, por lo que con solo un par de clics venderá productos de terceros en su tienda.
+                        Aplicamos estrategias para marcar tendencia y fidelizar los clientes para que puedan viralizar tus servicios digitales.
                     </mat-card-content>
                 </div>
             </mat-card>
@@ -406,3 +455,4 @@
     <div class="space-100"></div>
 </section>
 <!-- end mobile -->
+<app-contact></app-contact>

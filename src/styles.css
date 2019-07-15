@@ -597,7 +597,7 @@ Custom theme
     Ads campaign
     */
     .ads-theme-shop {
-        background-image: url(./assets/campaign/pages/1920/bg-shop-desktop.jpg) !important;
+        background-image: url(./assets/campaign/pages/1920/bg-app-desktop.jpg) !important;
         background-repeat: no-repeat;
     }
 }
@@ -613,7 +613,7 @@ Custom theme
     Ads campaign
     */
     .ads-theme-shop {
-        background-image: url(./assets/campaign/pages/768/bg-shop-tablet.jpg) !important;
+        background-image: url(./assets/campaign/pages/768/bg-app-tablet.jpg) !important;
         background-repeat: no-repeat;
     }
 }
@@ -626,9 +626,8 @@ Custom theme
 
 @media only screen and (max-width: 800px) {
     .ads-theme-shop {
-        background-image: url(./assets/campaign/pages/480/bg-shop-mobile.jpg) !important;
+        background-image: url(./assets/campaign/pages/480/bg-app-mobile.jpg) !important;
         background-repeat: no-repeat;
-        background-size: cover
     }
 }
 
@@ -800,7 +799,7 @@ Custom theme
 
 .dialog-resize-xl .mat-dialog-container {
     /*background-color: rgba(54, 56, 57, 1) !important;*/
-    background-image: url(./assets/campaign/pages/1920/bg-shop-desktop.jpg) !important;
+    background-image: url(./assets/campaign/pages/1920/bg-app-desktop.jpg) !important;
     background-repeat: no-repeat;
 }
 
@@ -817,6 +816,10 @@ Custom theme
 
 .grecaptcha-badge {
     z-index: 1000 !important;
+}
+
+.mat-snack-bar-container {
+    max-width: 100% !important;
 }
 
 
